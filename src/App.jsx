@@ -1,24 +1,17 @@
 // add to the top
 import React from "react";
-import { createRoot } from "react-dom/client";
- 
-// modify the createRoot call, delete "ReactDOM"
-// const root = createRoot(container);
-// const Pet = (props) => {
-//     return (
-//       <div>
-//         <h1>{props.name}</h1>
-//         <h2>{props.animal}</h2>
-//         <h2>{props.breed}</h2>
-//       </div>
-//     );
-//   };
-   
-//   export default Pet;
+import '../asset/style.css'
+import Home from "./pages/Home.jsx";
+import Navbar from "./components/Navbar.jsx";
 
 
-export default function Navbar(){
+export default function App(){
     return(
-        <div>HELLO</div>
+        <div>HELLO
+            ksnjljls
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis aspernatur, et modi aliquid, recusandae culpa quidem rerum sunt, illo enim quo dicta! Vel explicabo sit porro facere, omnis rem quidem?
+            <Home />
+            <Navbar />
+        </div>
     )
 }
