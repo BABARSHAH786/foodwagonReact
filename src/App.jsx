@@ -1,17 +1,18 @@
-// add to the top
-import React from "react";
+import "../assets/style.css"
 import '../asset/style.css'
-import Home from "./pages/Home.jsx";
-import Navbar from "./components/Navbar.jsx";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'remixicon/fonts/remixicon.css';
 
 
-export default function App(){
-    return(
-        <div>HELLO
-            ksnjljls
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis aspernatur, et modi aliquid, recusandae culpa quidem rerum sunt, illo enim quo dicta! Vel explicabo sit porro facere, omnis rem quidem?
-            <Home />
-            <Navbar />
-        </div>
-    )
-}
+
+import Home from "./pages/home.jsx";
+const App = () => {
+  return (
+    <>
+    <Home />
+    </>
+  );
+};
+
+export default App;

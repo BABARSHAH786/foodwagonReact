@@ -23,9 +23,7 @@ ul{
 .ab5{
     width: 90px;
 }
-.abc h3{
-    /* width: 90.5px; */
-}
+
 .abc{
     display: flex;
     position: relative;
@@ -41,18 +39,45 @@ ul{
     line-height: 37.33px;
     letter-spacing: -0.025em;
     text-align: left;
+    top: 45px;
 
 
 }
-.abcd{
-    /* width: 28px;
+.are{
+    font-size: 88px;
+    width: 771px;
+    height: 88px;
+    text-align: center;
+    color: white;
+}
+.pq{
+    width: 771px;
+    margin-top: 34px;
+
+
+}
+.asd{
+    position: relative;
+    top: 40px;
+
+}
+.ab5{
+    color:#FFB30E;
+}
+.ab6{
+    color:#F17228;
+    position: relative;
+    left: -40px;
+}
+/* .abcd{
+     width: 28px;
     height: 29.98px;
     gap: 0px;
-    opacity: 0px; */
+    opacity: 0px; 
 
-}
+} */
 .nav-565{
-    width: 565px;
+    width: 590px;
     font-size: 12px;
     display: flex;
 }
@@ -77,19 +102,28 @@ background-color: #fff;
 
 
 }
+.center{
+    text-align: center;
+}
 .search12{
     width:272px;
     display: flex;
+  
 }
 .search123{
     width:272px;
     height: 18px;
+    position: relative;
+    top: 14px;
+    text-align: center;
 
 
 }
 /* nav style */
 .nav-back{
     background-color: #FFB30E;
+    width: auto;
+    height: auto;
 }
 .nav{
     display: flex;
@@ -190,6 +224,8 @@ figcaption a {
 }
 .howwork{
     display:inline-block;
+    position: relative;
+    left: 100px;
 }
 /* .howwork p{
     display:inline-block;
@@ -228,10 +264,17 @@ figcaption a {
 button{
     background-color: #F17228;
     color:#fff;
+    border-style: black;
+    border-radius: 10px;
 }
-/* featured */
-#featured{
+/* featured  */
+ #featured{
     text-align: center;
+}
+.featza{
+   
+    position: relative;
+    left: 350px;
 }
 .feat11,.feat2,.feat3,.feat4{
     display: inline-block;
@@ -247,6 +290,9 @@ button{
     color: #fff;
     margin: auto;
     padding: 5px;
+    border-radius: 9px;
+    border:  black;
+    margin-bottom: 20px;
 }
 .search{
     display: inline-block;
@@ -273,6 +319,16 @@ justify-content: end;
 
 
 }
+.z{
+    margin-top: 60px;
+}
+/*  6 image rounded */
+.gapz{
+    gap: 9px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
 .logo{
     background-color: #fff;
     /* justify-content: space-between;
@@ -290,7 +346,7 @@ text-align: center;
 .new123{
     background-color: #FEEFD0;
     width:  1,924px;
-height: Hug 456px;
+height:  456px;
 padding: 130px 0px 80px 0px;
 gap: 124px;
 opacity: 0px;
@@ -304,6 +360,19 @@ opacity: 0px;
 #last12{
     display: inline-block;
 }
+#last12z{
+    width: 961px;
+height: 512px;
+gap: 0px;
+opacity: 0px;
+
+}
+.last{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.last1{
+display: flex;}
 .orderl{
     width: 220px;
     background-color: orange;
@@ -312,8 +381,24 @@ opacity: 0px;
     padding-left: 2px;
     margin-left: 2px;
 }
+.last-one{
+    width:  1,480px;
+height: 512px;
+gap: 0px;
+border-radius: 16px 0px 0px 0px;
+opacity: 0px;
+display: flex;
+margin-bottom: 30px;
+}
+.last-two{
+    width: 519px;
+height:  512px;
+padding: 56px 0px 0px 0px;
+gap: 48px;
+opacity: 0px;
+margin-top: 60px;
 
-
+}
 /****************** footer css *****************/
 
 .foot-social{
@@ -329,7 +414,6 @@ opacity: 0px;
 .foot2{
     background-color: #212121;
     height: 378px;
-    width: ;
 }
 .foot-top h4{
     position: relative;
@@ -342,6 +426,7 @@ opacity: 0px;
     justify-content: space-around;
     text-decoration: none;
     list-style: none;
+    padding-top: 40px;
 
     
 }
@@ -392,6 +477,13 @@ opacity: 0px;
     background-color: #f28080;
     color: white;
     text-align: center;
+}
+.footer-down{
+    color: #F5F5F5;
+}
+.whitez{
+    color: white;
+    font-weight: 600;
 }
 /* .quiz1a{
     text-align: center;

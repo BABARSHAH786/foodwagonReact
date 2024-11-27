@@ -1,10 +1,15 @@
 import React from "react";
-import Navbar from "../components/Navbar.jsx";
+import Header from "../components/header.jsx";
+import Main from "../components/main.jsx";
+// import SectionEnd from "../components/SectionzEnd.jsx";
+// import Navbar from "../components/Navbar.jsx";
 function Home () {
     return ( 
         <>
-        <Navbar />
+        <Header />
+        {/* <Navbar /> */}
         <Main />
+        {/* <SectionEnd /> */}
         </>
     )
 }
