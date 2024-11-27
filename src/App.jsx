@@ -6,7 +6,7 @@ import 'remixicon/fonts/remixicon.css';
 
 
 
-import Home from "./pages/home.jsx";
+import Home from "./pages/Home";
 const App = () => {
   return (
     <>
