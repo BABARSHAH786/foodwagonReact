@@ -1,6 +1,5 @@
 import React from "react";
-// import Logo from "../../assets/images/logo.jpg";
-// import Donot from '../../images/Donot.png'
+
 import Imagesss from "../../images/Imagesss.png";
 import logo from "../../images/logo.svg";
 import MapMarker from "../../images/MapMarker.png";
