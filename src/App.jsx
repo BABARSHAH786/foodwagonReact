@@ -1,8 +1,7 @@
-import "../assets/style.css"
+// import "../assets/style.css"
 import '../asset/style.css'
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'remixicon/fonts/remixicon.css';
+
 
 
 
